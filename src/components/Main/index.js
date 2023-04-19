@@ -1,14 +1,14 @@
 import React from 'react';
-import './style.css';
+import styles from './styles.module.scss';
 import Menu from '../Menu';
 import Banner from '../../assets/banner.png';
 import Gallery from '../Gallery';
 
 function Main() {
   return <>
-    <main className='principal'>
+    <main className={styles.principal}>
       <Menu />
-      <div className='imagem'>
+      <div className={styles.principal__imagem}>
         <h1>A galeria mais completa de fotos do espaço!</h1>
         <img src={Banner} alt="Banner" />
         <Gallery /> 
