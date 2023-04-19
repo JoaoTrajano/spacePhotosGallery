@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import home from '../../assets/icones/home-ativo.png';
-import maisCurtidas from '../../assets/icones/mais-curtidas-inativo.png';
-import maisVistas from '../../assets/icones/mais-vistas-inativo.png';
-import novasInativo from '../../assets/icones/novas-inativo.png';
-import surprendameInativo from '../../assets/icones/surpreenda-me-inativo.png';
+import home from 'assets/icones/home-ativo.png';
+import maisCurtidas from 'assets/icones/mais-curtidas-inativo.png';
+import maisVistas from 'assets/icones/mais-vistas-inativo.png';
+import novasInativo from 'assets/icones/novas-inativo.png';
+import surprendameInativo from 'assets/icones/surpreenda-me-inativo.png';
 
 function Menu() {
   return (

@@ -11,6 +11,8 @@ function Tags() {
         <li>Lua</li>
         <li>Planetas</li>
       </ul>
+    <h2>Populares</h2>
+
     </section>
   )
 }

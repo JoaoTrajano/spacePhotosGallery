@@ -3,18 +3,18 @@
 main {
   margin: 0 24px;
 }
-
 .principal {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
 
+  &__banner {
+    width: 100%;
+    height: 288px;
+  }
+
   &__imagem {
-    width: 88%;
-    img {
-      width: 100%;
-      height: 288px;
-    }
+    width: 80%;
 
     position: relative;
 

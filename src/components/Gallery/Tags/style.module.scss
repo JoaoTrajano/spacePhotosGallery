@@ -1,13 +1,19 @@
 @import "../../../styles/variaveis.scss";
 
 .tags {
-  width: 60vw;
+  width: 73vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: $cor-do-texto;
   font-family: $fonte-normal;
   font-size: 16px;
+
+  h2 {
+    color: $roxo;
+    font-family: $fonte-normal;
+    font-size: 22px;
+  }
 
   p {
     font-size: 1.25rem;
