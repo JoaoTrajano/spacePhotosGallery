@@ -4,13 +4,13 @@ main {
 
 .principal {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-top: 2rem; 
+  margin-top: 2rem;
 }
 
 .imagem {
   width: 100%;
+  margin: 0;
 }
 
 .imagem img {
@@ -24,8 +24,9 @@ main {
     z-index: 1;
     color: #d9d9d9;
     font-size: 2.5rem;
+    font-family: "GandhiSansRegular";
     width: 401px;
     height: 144px;
     top: 170px;
-    left: 200px;
+    left: 250px;
   }

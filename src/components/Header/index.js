@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
 import search from '../../assets/search.png'
+import  './style.css'
 
 function Header () {
   return (
